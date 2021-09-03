@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045117772664991E00A4DCA3 /* CalenderAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045117762664991E00A4DCA3 /* CalenderAdapter.swift */; };
+		0451177C26649F0900A4DCA3 /* AppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451177B26649F0900A4DCA3 /* AppExtensions.swift */; };
+		045117862664A6A200A4DCA3 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045117852664A6A200A4DCA3 /* AlertController.swift */; };
+		0451178B2664A80900A4DCA3 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 0451178A2664A80900A4DCA3 /* Readme.md */; };
+		045117932664AB6000A4DCA3 /* CalenderVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045117922664AB6000A4DCA3 /* CalenderVCTests.swift */; };
+		045117982664C12000A4DCA3 /* CalenderHelperTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045117972664C12000A4DCA3 /* CalenderHelperTestCase.swift */; };
 		047E5FE926637CA100440B1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E5FE826637CA100440B1C /* AppDelegate.swift */; };
-		047E5FEB26637CA100440B1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E5FEA26637CA100440B1C /* SceneDelegate.swift */; };
-		047E5FED26637CA100440B1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E5FEC26637CA100440B1C /* ViewController.swift */; };
 		047E5FF026637CA100440B1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047E5FEE26637CA100440B1C /* Main.storyboard */; };
-		047E5FF326637CA100440B1C /* Demo1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 047E5FF126637CA100440B1C /* Demo1.xcdatamodeld */; };
 		047E5FF526637CA200440B1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047E5FF426637CA200440B1C /* Assets.xcassets */; };
 		047E5FF826637CA200440B1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047E5FF626637CA200440B1C /* LaunchScreen.storyboard */; };
 		047E600326637CA300440B1C /* Demo1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E600226637CA300440B1C /* Demo1Tests.swift */; };
 		047E600E26637CA300440B1C /* Demo1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E600D26637CA300440B1C /* Demo1UITests.swift */; };
+		047E602526637DE000440B1C /* CalenderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E602426637DE000440B1C /* CalenderVC.swift */; };
+		047E602A26637E6C00440B1C /* CalenderViewComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E602926637E6C00440B1C /* CalenderViewComposer.swift */; };
+		047E60322663809600440B1C /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E60312663809600440B1C /* AppConstants.swift */; };
+		047E6037266380CD00440B1C /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E6036266380CD00440B1C /* AppUtility.swift */; };
+		047E604226639B6C00440B1C /* CalenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E604126639B6C00440B1C /* CalenderCell.swift */; };
+		047E60472663A7FD00440B1C /* CalenderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E60462663A7FD00440B1C /* CalenderHelper.swift */; };
+		047E60502663B13000440B1C /* DayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E604F2663B13000440B1C /* DayModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045117762664991E00A4DCA3 /* CalenderAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderAdapter.swift; sourceTree = "<group>"; };
+		0451177B26649F0900A4DCA3 /* AppExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExtensions.swift; sourceTree = "<group>"; };
+		045117852664A6A200A4DCA3 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		0451178A2664A80900A4DCA3 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		045117922664AB6000A4DCA3 /* CalenderVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderVCTests.swift; sourceTree = "<group>"; };
+		045117972664C12000A4DCA3 /* CalenderHelperTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderHelperTestCase.swift; sourceTree = "<group>"; };
 		047E5FE526637CA100440B1C /* Demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047E5FE826637CA100440B1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		047E5FEA26637CA100440B1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		047E5FEC26637CA100440B1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		047E5FEF26637CA100440B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		047E5FF226637CA100440B1C /* Demo1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Demo1.xcdatamodel; sourceTree = "<group>"; };
 		047E5FF426637CA200440B1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047E5FF726637CA200440B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047E5FF926637CA200440B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +64,13 @@
 		047E600926637CA300440B1C /* Demo1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		047E600D26637CA300440B1C /* Demo1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo1UITests.swift; sourceTree = "<group>"; };
 		047E600F26637CA300440B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047E602426637DE000440B1C /* CalenderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderVC.swift; sourceTree = "<group>"; };
+		047E602926637E6C00440B1C /* CalenderViewComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewComposer.swift; sourceTree = "<group>"; };
+		047E60312663809600440B1C /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		047E6036266380CD00440B1C /* AppUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
+		047E604126639B6C00440B1C /* CalenderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderCell.swift; sourceTree = "<group>"; };
+		047E60462663A7FD00440B1C /* CalenderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderHelper.swift; sourceTree = "<group>"; };
+		047E604F2663B13000440B1C /* DayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +98,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045117622664944500A4DCA3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				047E5FE826637CA100440B1C /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		045117632664945C00A4DCA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				047E604F2663B13000440B1C /* DayModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		045117642664946A00A4DCA3 /* HelperClass */ = {
+			isa = PBXGroup;
+			children = (
+				047E6036266380CD00440B1C /* AppUtility.swift */,
+				045117852664A6A200A4DCA3 /* AlertController.swift */,
+				0451177B26649F0900A4DCA3 /* AppExtensions.swift */,
+				047E60312663809600440B1C /* AppConstants.swift */,
+				047E60462663A7FD00440B1C /* CalenderHelper.swift */,
+			);
+			path = HelperClass;
+			sourceTree = "<group>";
+		};
+		045117652664948000A4DCA3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				047E602426637DE000440B1C /* CalenderVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		045117672664949400A4DCA3 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				047E604126639B6C00440B1C /* CalenderCell.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		04511768266494AC00A4DCA3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				047E5FEE26637CA100440B1C /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		04511769266494E000A4DCA3 /* CalenderUI */ = {
+			isa = PBXGroup;
+			children = (
+				0451176A266494ED00A4DCA3 /* Composer+Adapter */,
+				045117652664948000A4DCA3 /* ViewController */,
+			);
+			path = CalenderUI;
+			sourceTree = "<group>";
+		};
+		0451176A266494ED00A4DCA3 /* Composer+Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				047E602926637E6C00440B1C /* CalenderViewComposer.swift */,
+				045117762664991E00A4DCA3 /* CalenderAdapter.swift */,
+			);
+			path = "Composer+Adapter";
+			sourceTree = "<group>";
+		};
 		047E5FDC26637CA100440B1C = {
 			isa = PBXGroup;
 			children = (
+				0451178A2664A80900A4DCA3 /* Readme.md */,
 				047E5FE726637CA100440B1C /* Demo1 */,
 				047E600126637CA300440B1C /* Demo1Tests */,
 				047E600C26637CA300440B1C /* Demo1UITests */,
@@ -101,14 +192,15 @@
 		047E5FE726637CA100440B1C /* Demo1 */ = {
 			isa = PBXGroup;
 			children = (
-				047E5FE826637CA100440B1C /* AppDelegate.swift */,
-				047E5FEA26637CA100440B1C /* SceneDelegate.swift */,
-				047E5FEC26637CA100440B1C /* ViewController.swift */,
-				047E5FEE26637CA100440B1C /* Main.storyboard */,
+				045117622664944500A4DCA3 /* AppDelegate */,
+				045117632664945C00A4DCA3 /* Model */,
+				045117642664946A00A4DCA3 /* HelperClass */,
+				04511769266494E000A4DCA3 /* CalenderUI */,
+				04511768266494AC00A4DCA3 /* Storyboards */,
+				045117672664949400A4DCA3 /* CollectionViewCell */,
 				047E5FF426637CA200440B1C /* Assets.xcassets */,
 				047E5FF626637CA200440B1C /* LaunchScreen.storyboard */,
 				047E5FF926637CA200440B1C /* Info.plist */,
-				047E5FF126637CA100440B1C /* Demo1.xcdatamodeld */,
 			);
 			path = Demo1;
 			sourceTree = "<group>";
@@ -117,6 +209,8 @@
 			isa = PBXGroup;
 			children = (
 				047E600226637CA300440B1C /* Demo1Tests.swift */,
+				045117922664AB6000A4DCA3 /* CalenderVCTests.swift */,
+				045117972664C12000A4DCA3 /* CalenderHelperTestCase.swift */,
 				047E600426637CA300440B1C /* Info.plist */,
 			);
 			path = Demo1Tests;
@@ -236,6 +330,7 @@
 			files = (
 				047E5FF826637CA200440B1C /* LaunchScreen.storyboard in Resources */,
 				047E5FF526637CA200440B1C /* Assets.xcassets in Resources */,
+				0451178B2664A80900A4DCA3 /* Readme.md in Resources */,
 				047E5FF026637CA100440B1C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +356,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047E5FF326637CA100440B1C /* Demo1.xcdatamodeld in Sources */,
-				047E5FED26637CA100440B1C /* ViewController.swift in Sources */,
+				047E60502663B13000440B1C /* DayModel.swift in Sources */,
+				047E602526637DE000440B1C /* CalenderVC.swift in Sources */,
+				047E604226639B6C00440B1C /* CalenderCell.swift in Sources */,
+				047E602A26637E6C00440B1C /* CalenderViewComposer.swift in Sources */,
+				047E6037266380CD00440B1C /* AppUtility.swift in Sources */,
+				0451177C26649F0900A4DCA3 /* AppExtensions.swift in Sources */,
+				047E60472663A7FD00440B1C /* CalenderHelper.swift in Sources */,
 				047E5FE926637CA100440B1C /* AppDelegate.swift in Sources */,
-				047E5FEB26637CA100440B1C /* SceneDelegate.swift in Sources */,
+				045117862664A6A200A4DCA3 /* AlertController.swift in Sources */,
+				045117772664991E00A4DCA3 /* CalenderAdapter.swift in Sources */,
+				047E60322663809600440B1C /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +374,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045117982664C12000A4DCA3 /* CalenderHelperTestCase.swift in Sources */,
+				045117932664AB6000A4DCA3 /* CalenderVCTests.swift in Sources */,
 				047E600326637CA300440B1C /* Demo1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +547,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q4KF7QULRW;
 				INFOPLIST_FILE = Demo1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +567,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q4KF7QULRW;
 				INFOPLIST_FILE = Demo1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -597,19 +703,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		047E5FF126637CA100440B1C /* Demo1.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				047E5FF226637CA100440B1C /* Demo1.xcdatamodel */,
-			);
-			currentVersion = 047E5FF226637CA100440B1C /* Demo1.xcdatamodel */;
-			path = Demo1.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 047E5FDD26637CA100440B1C /* Project object */;
 }
